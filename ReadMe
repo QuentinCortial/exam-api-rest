@@ -1,0 +1,33 @@
+1)Donnez 5 verbes HTTP et expliquer leur utilité:
+
+GET: La requete GET permet de recupèrer des données dans la base de données.
+
+POST: La requete POST permet de poster, crée une nouvelle données dans la base de données.
+
+DELETE: La requete DELETE permet de supprimer un element choisi dans la base de données.
+
+PUT: La requete PUT permet de remplacer un element par un autre il faudra alors lui renseigner 
+tout les champs de l''entity pour pouvoir l''executer correctement.
+
+PATCH: La requete PATCH permet de remplacer ou plusieurs champs d''un element, 
+par exemple on a un element avec les propriétés titre et description, le PATCH
+va nous permettre de changer seulement le titre.
+
+
+
+2)Donnez les composants d’une requête HTTP:
+
+Une requete HTTP est composé de:
+-une url
+-des heardes
+-une methode (GET,POST,DELETE, etc...)
+-un body (optionnel, tout depend la methode utilisé)
+
+
+
+3) Donnez les composants d’une réponse HTTP:
+
+Une reponse HTTP contient:
+-des headers
+-un body (en xml,html, json suivant le type demande dans la requete)
+-un code status (qui renvoye si la requete a marche ou pas : 200,201,404,400, etc...)
